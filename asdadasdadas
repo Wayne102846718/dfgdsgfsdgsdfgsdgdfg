@@ -1,0 +1,4 @@
+                local LocalPlayer = game:GetService("Players").LocalPlayer
+                local RootPart = LocalPlayer.Character.HumanoidRootPart
+                local cframe = RootPart.CFrame
+                local Remote = game:GetService("ReplicatedStorage").Events.PlaceStructure
